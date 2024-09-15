@@ -1,0 +1,61 @@
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+}
+
+h1,
+h2,
+h3 {
+  margin: 1rem 0;
+  color: aliceblue;
+  size: 10cm;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #fffbfb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #032a54;
+}
+
+/* About Us section styles */
+
+.about-us {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.team-photo {
+  margin: 2rem auto;
+  border-radius: 5px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.social-links a {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}

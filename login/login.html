@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music App - Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/23cecef777.js"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-wrapper">
+        <div class="login-form">
+          <h1>LARISA</h1>
+          <p>Listen to your favorite music</p>
+          <form action="/login" method="post">
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" name="username" id="username" required />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+            <div class="form-group">
+              <input type="checkbox" id="remember-me" />
+              <label for="remember-me">Remember me</label>
+            </div>
+            <button type="submit">Log In</button>
+          </form>
+          <a href="#">Forgot Password?</a>
+          <p>Don't have an account? <a href="#">Sign Up</a></p>
+        </div>
+        <!---- <div class="login-image">
+        <img src="images/48.jpg" alt="Music notes">
+      </div>-->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 400px;
+  background-color: rgb(108, 168, 206);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.login-form {
+  padding: 40px;
+  text-align: center;
+  flex: 1;
+}
+
+.login-form h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.form-group input[type="checkbox"] {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.form-group label[for="remember-me"] {
+  font-size: 14px;
+  color: #666;
+}
+
+.login-form button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
